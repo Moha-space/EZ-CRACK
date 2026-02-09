@@ -1,46 +1,4 @@
--- ts file was generated at discord.gg/25ms
-
-local v5 = (function()
-    local v1, u2 = pcall(game.HttpGet, game, 'https://raw.githubusercontent.com/IJNTJNNPTJ/farm/refs/heads/main/.R')
-
-    if v1 and u2 then
-        local v3, v4 = pcall(function()
-            return loadstring(u2)()
-        end)
-
-        if v3 and type(v4) == 'table' then
-            return v4
-        end
-    end
-
-    return {}
-end)()
-
-if (function(p6, p7)
-    local v8, v9, v10 = ipairs(p7)
-
-    while true do
-        local v11
-
-        v10, v11 = v8(v9, v10)
-
-        if v10 == nil then
-            break
-        end
-        if p6 == v11 then
-            return true
-        end
-    end
-
-    return false
-end)(game.Players.LocalPlayer.Name, v5) then
-    print('You are whitelisted.')
-else
-    game:GetService('ReplicatedStorage').rEvents.rebirthRemote:InvokeServer(unpack({
-        'rebirthRequest',
-    }))
-    game.Players.LocalPlayer:Kick('You got rebirthed becuase you are not whitelisted to use this script.')
-end
+-- gay faggot , bullshit ( wl sysm removed) 
 
 local _RuRuV2 = loadstring(game:HttpGet('https://raw.githubusercontent.com/EpicDeevv/eEe/refs/heads/main/EeE', true))():AddWindow('RuRu V2', {
     main_color = Color3.fromRGB(115, 115, 115),
